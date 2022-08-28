@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html,
+  body {
+    @apply font-Red-Hat-Display text-base;
+  }
+}
+
+@layer components {
+  .hover-style {
+    @apply hover:cursor-pointer  hover:no-underline hover:opacity-70;
+  }
+}

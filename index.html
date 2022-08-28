@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./dist/output.css" />
+
+    <title>Frontend Mentor | Order summary card</title>
+  </head>
+
+  <body class="h-screen bg-pale-blue">
+    <main class="flex h-full w-full flex-col items-center justify-center">
+      <div
+        id="card"
+        class="grid w-[340px] gap-2 overflow-hidden rounded-2xl bg-white shadow-xl shadow-bright-blue/10 md:w-[360px]"
+      >
+        <!-- Image section start-->
+        <div id="image-section">
+          <img src="./images/illustration-hero.svg" alt="illustration" />
+        </div>
+        <!-- Image section end  -->
+
+        <!-- description section start -->
+        <div id="description-section" class="p-5 md:px-8">
+          <div class="m-4 text-center md:mx-3">
+            <h1 class="mb-4 text-2xl font-black">Order Summary</h1>
+            <p class="text-center text-base text-desaturated-blue md:text-sm">
+              You can now listen to millions of songs, audiobooks, and podcasts
+              on any device anywhere you like!
+            </p>
+          </div>
+          <!-- item section start -->
+          <div
+            id="item-section"
+            class="my-6 flex items-center justify-center rounded-xl bg-very-pale-blue px-4 py-4 text-sm"
+          >
+            <img src="./images/icon-music.svg" alt="music icon" class="mr-4" />
+            <h3 class="text-desaturated-blue">
+              <span class="mr-4 font-black text-dark-blue">Annual Plan</span>
+              $59.99/year
+            </h3>
+            <a class="hover-style my-auto font-bold text-bright-blue underline"
+              >Change</a
+            >
+          </div>
+          <!-- item section end -->
+          <!-- button section start -->
+          <div id="button-section" class="m-2 flex flex-col">
+            <button
+              class="mb-4 justify-center rounded-xl bg-bright-blue p-4 text-center text-base font-bold text-white shadow-lg shadow-bright-blue/40 hover:opacity-70 md:p-3 md:text-sm"
+            >
+              Proceed to Payment
+            </button>
+            <button
+              class="mt-2 font-black text-desaturated-blue hover:text-dark-blue md:text-sm"
+            >
+              Cancel Order
+            </button>
+          </div>
+          <!-- button section end -->
+        </div>
+        <!-- description section end -->
+      </div>
+      <div class="mt-6 text-xs text-dark-blue">
+        Challenge by
+        <a
+          href="https://www.frontendmentor.io?ref=challenge"
+          target="_blank"
+          class="hover-style font-bold text-bright-blue underline"
+          >Frontend Mentor</a
+        >. Coded by
+        <a
+          href="https://github.com/fsuropaty"
+          class="hover-style font-bold text-bright-blue underline"
+          >fsuropaty</a
+        >.
+      </div>
+    </main>
+  </body>
+</html>

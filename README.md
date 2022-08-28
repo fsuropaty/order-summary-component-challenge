@@ -7,6 +7,7 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 - [Frontend Mentor - Order summary card solution](#frontend-mentor---order-summary-card-solution)
   - [Table of contents](#table-of-contents)
   - [Overview](#overview)
+    - [The challenge](#the-challenge)
     - [Screenshot](#screenshot)
     - [Links](#links)
   - [My process](#my-process)
@@ -16,6 +17,12 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
   - [Author](#author)
 
 ## Overview
+
+### The challenge
+
+Users should be able to:
+
+- See hover states for interactive elements
 
 ### Screenshot
 
